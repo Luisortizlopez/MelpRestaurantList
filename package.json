@@ -1,0 +1,36 @@
+{
+  "name": "restaurantlist",
+  "version": "1.0.0",
+  "description": "Melp restaurant list component.",
+  "main": "index.js",
+  "scripts": {
+    "react-dev": "webpack -d --watch",
+    "start": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luisortizlopez/MelpRestaurantList.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luisortizlopez/MelpRestaurantList/issues"
+  },
+  "homepage": "https://github.com/Luisortizlopez/MelpRestaurantList#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "jquery": "^3.3.1",
+    "nodemon": "^1.17.3",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "webpack": "^2.2.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack-cli": "^2.0.14"
+  }
+}
